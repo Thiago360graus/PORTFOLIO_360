@@ -2,207 +2,6 @@
     var script = {
  "mouseWheelEnabled": true,
  "definitions": [{
- "gyroscopeEnabled": true,
- "class": "PanoramaPlayer",
- "viewerArea": "this.MainViewer",
- "displayPlaybackBar": true,
- "touchControlMode": "drag_rotation",
- "id": "MainViewerPanoramaPlayer",
- "gyroscopeVerticalDraggingEnabled": true,
- "mouseControlMode": "drag_rotation"
-},
-{
- "class": "VideoPlayer",
- "viewerArea": "this.MainViewer",
- "id": "MainViewerVideoPlayer",
- "displayPlaybackBar": true
-},
-{
- "backgroundColorRatios": [],
- "layout": "vertical",
- "id": "window_25C477E1_34C3_E252_41BB_FF7C58738851",
- "bodyBackgroundColorDirection": "vertical",
- "paddingLeft": 0,
- "scrollBarColor": "#000000",
- "scrollBarVisible": "rollOver",
- "closeButtonRollOverBackgroundColorRatios": [
-  0
- ],
- "width": 400,
- "closeButtonPaddingTop": 0,
- "horizontalAlign": "center",
- "veilColor": [
-  "#000000",
-  "#000000"
- ],
- "scrollBarOpacity": 0.5,
- "headerVerticalAlign": "middle",
- "minHeight": 20,
- "headerBackgroundColorRatios": [
-  0,
-  0.1,
-  1
- ],
- "verticalAlign": "middle",
- "titlePaddingLeft": 5,
- "headerBackgroundOpacity": 1,
- "modal": true,
- "showEffect": {
-  "class": "FadeInEffect",
-  "duration": 500,
-  "easing": "cubic_in_out"
- },
- "height": 600,
- "titleFontColor": "#000000",
- "veilColorRatios": [
-  0,
-  1
- ],
- "closeButtonBorderColor": "#000000",
- "minWidth": 20,
- "title": "PAPELARIA DELTA 360",
- "titleFontSize": "1.29vmin",
- "headerBackgroundColorDirection": "vertical",
- "backgroundColor": [],
- "shadowSpread": 1,
- "closeButtonRollOverIconColor": "#FFFFFF",
- "shadowHorizontalLength": 3,
- "veilColorDirection": "horizontal",
- "closeButtonBackgroundColorDirection": "vertical",
- "backgroundOpacity": 1,
- "closeButtonPressedBackgroundColor": [
-  "#3A1D1F"
- ],
- "headerBorderSize": 0,
- "closeButtonBackgroundColor": [],
- "titleFontWeight": "normal",
- "class": "Window",
- "titlePaddingTop": 5,
- "shadow": true,
- "closeButtonPressedBackgroundColorRatios": [
-  0
- ],
- "propagateClick": false,
- "overflow": "scroll",
- "veilOpacity": 0.4,
- "footerBackgroundColorDirection": "vertical",
- "footerBackgroundColor": [
-  "#FFFFFF",
-  "#EEEEEE",
-  "#DDDDDD"
- ],
- "titlePaddingRight": 5,
- "children": [
-  "this.htmlText_25C6B7E1_34C3_E252_41B9_7433E0ECBF59",
-  {
-   "backgroundColorRatios": [],
-   "paddingLeft": 0,
-   "paddingRight": 0,
-   "width": "100%",
-   "backgroundColorDirection": "vertical",
-   "url": "//www.youtube.com/embed/r7jcJ1BFBH4?v=r7jcJ1BFBH4&ab_channel=Maps360Graus",
-   "minHeight": 0,
-   "scrollEnabled": true,
-   "borderSize": 0,
-   "minWidth": 0,
-   "backgroundColor": [],
-   "height": "89%",
-   "insetBorder": false,
-   "paddingTop": 0,
-   "backgroundOpacity": 1,
-   "class": "WebFrame",
-   "borderRadius": 0,
-   "shadow": false,
-   "paddingBottom": 0,
-   "propagateClick": false,
-   "data": {
-    "name": "WebFrame10553"
-   }
-  }
- ],
- "veilShowEffect": {
-  "class": "FadeInEffect",
-  "duration": 500,
-  "easing": "cubic_in_out"
- },
- "closeButtonIconHeight": 12,
- "closeButtonIconLineWidth": 2,
- "paddingRight": 0,
- "bodyPaddingBottom": 5,
- "shadowColor": "#000000",
- "backgroundColorDirection": "vertical",
- "titleFontFamily": "Arial",
- "footerHeight": 5,
- "borderSize": 0,
- "headerPaddingBottom": 10,
- "closeButtonIconColor": "#FF3300",
- "titleFontStyle": "normal",
- "footerBackgroundColorRatios": [
-  0,
-  0.9,
-  1
- ],
- "headerBorderColor": "#000000",
- "closeButtonBackgroundOpacity": 1,
- "shadowVerticalLength": 0,
- "closeButtonPaddingRight": 0,
- "bodyPaddingTop": 5,
- "hideEffect": {
-  "class": "FadeOutEffect",
-  "duration": 500,
-  "easing": "cubic_in_out"
- },
- "contentOpaque": false,
- "headerPaddingRight": 10,
- "scrollBarMargin": 2,
- "closeButtonPaddingLeft": 0,
- "shadowBlurRadius": 6,
- "headerPaddingLeft": 10,
- "headerPaddingTop": 10,
- "closeButtonBorderSize": 0,
- "closeButtonPaddingBottom": 0,
- "closeButtonBorderRadius": 11,
- "bodyBackgroundColor": [
-  "#FFFFFF",
-  "#DDDDDD",
-  "#FFFFFF"
- ],
- "veilHideEffect": {
-  "class": "FadeOutEffect",
-  "duration": 500,
-  "easing": "cubic_in_out"
- },
- "titleTextDecoration": "none",
- "shadowOpacity": 0.5,
- "paddingTop": 0,
- "bodyPaddingRight": 5,
- "paddingBottom": 0,
- "bodyBackgroundColorRatios": [
-  0,
-  0.5,
-  1
- ],
- "borderRadius": 5,
- "gap": 10,
- "titlePaddingBottom": 5,
- "headerBackgroundColor": [
-  "#DDDDDD",
-  "#EEEEEE",
-  "#FFFFFF"
- ],
- "closeButtonRollOverBackgroundColor": [
-  "#C13535"
- ],
- "closeButtonPressedIconColor": "#FFFFFF",
- "bodyPaddingLeft": 5,
- "scrollBarWidth": 10,
- "closeButtonIconWidth": 20,
- "data": {
-  "name": "Window10034"
- },
- "closeButtonBackgroundColorRatios": []
-},
-{
  "hfovMax": 130,
  "class": "Panorama",
  "frames": [
@@ -428,7 +227,7 @@
   0,
   1
  ],
- "closeButtonBorderColor": "#000000",
+ "closeButtonBorderColor": "#FF3300",
  "backgroundColor": [],
  "veilColorDirection": "horizontal",
  "titleFontSize": "1.29vmin",
@@ -495,7 +294,7 @@
   "duration": 500,
   "easing": "cubic_in_out"
  },
- "closeButtonIconHeight": 12,
+ "closeButtonIconHeight": 20,
  "closeButtonIconLineWidth": 2,
  "paddingRight": 0,
  "bodyPaddingBottom": 5,
@@ -577,19 +376,6 @@
  "class": "PlayList",
  "items": [
   {
-   "class": "VideoPlayListItem",
-   "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_27CBDE14_3440_25F2_41C0_512D5FF1CA57, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_27CBDE14_3440_25F2_41C0_512D5FF1CA57, 0)",
-   "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer)",
-   "media": "this.video_39EBA1BB_3440_1E35_4178_7B78B4C4BAC3",
-   "player": "this.MainViewerVideoPlayer"
-  }
- ],
- "id": "playList_27CBDE14_3440_25F2_41C0_512D5FF1CA57"
-},
-{
- "class": "PlayList",
- "items": [
-  {
    "class": "PanoramaPlayListItem",
    "camera": "this.panorama_3A52900B_34C0_3DD6_41C9_97CB8E23AC36_camera",
    "begin": "this.setEndToItemIndex(this.mainPlayList, 0, 1)",
@@ -608,9 +394,19 @@
  "id": "mainPlayList"
 },
 {
+ "gyroscopeEnabled": true,
+ "class": "PanoramaPlayer",
+ "viewerArea": "this.MainViewer",
+ "displayPlaybackBar": true,
+ "touchControlMode": "drag_rotation",
+ "id": "MainViewerPanoramaPlayer",
+ "gyroscopeVerticalDraggingEnabled": true,
+ "mouseControlMode": "drag_rotation"
+},
+{
  "backgroundColorRatios": [],
  "layout": "vertical",
- "id": "window_25EDCDE1_34C0_2652_41C4_0A922687C80E",
+ "id": "window_26155439_34C0_2632_41B9_B02DBA3B9C95",
  "bodyBackgroundColorDirection": "vertical",
  "paddingLeft": 0,
  "scrollBarColor": "#000000",
@@ -648,198 +444,12 @@
   0,
   1
  ],
- "closeButtonBorderColor": "#000000",
+ "closeButtonBorderColor": "#FF3300",
  "backgroundColor": [],
- "title": "TOUR VIRTUAL INTERATIVO",
+ "veilColorDirection": "horizontal",
  "titleFontSize": "1.29vmin",
  "headerBackgroundColorDirection": "vertical",
  "height": "100%",
- "shadowSpread": 1,
- "closeButtonRollOverIconColor": "#FFFFFF",
- "shadowHorizontalLength": 3,
- "veilColorDirection": "horizontal",
- "closeButtonBackgroundColorDirection": "vertical",
- "backgroundOpacity": 1,
- "closeButtonPressedBackgroundColor": [
-  "#3A1D1F"
- ],
- "headerBorderSize": 0,
- "closeButtonBackgroundColor": [],
- "titleFontWeight": "bold",
- "class": "Window",
- "titlePaddingTop": 5,
- "shadow": true,
- "closeButtonPressedBackgroundColorRatios": [
-  0
- ],
- "propagateClick": false,
- "overflow": "scroll",
- "veilOpacity": 0.4,
- "footerBackgroundColorDirection": "vertical",
- "footerBackgroundColor": [
-  "#FFFFFF",
-  "#EEEEEE",
-  "#DDDDDD"
- ],
- "titlePaddingRight": 5,
- "children": [
-  "this.htmlText_25EB9DE1_34C0_2652_41AC_AD2379B3DA3F",
-  {
-   "backgroundColorRatios": [],
-   "paddingLeft": 0,
-   "paddingRight": 0,
-   "width": "100%",
-   "backgroundColorDirection": "vertical",
-   "url": "https://maps360graus.github.io/Azevedo.-.Advogados.Associados/",
-   "minHeight": 0,
-   "scrollEnabled": true,
-   "borderSize": 0,
-   "minWidth": 0,
-   "backgroundColor": [],
-   "height": "89%",
-   "insetBorder": false,
-   "paddingTop": 0,
-   "backgroundOpacity": 1,
-   "class": "WebFrame",
-   "borderRadius": 0,
-   "shadow": false,
-   "paddingBottom": 0,
-   "propagateClick": false,
-   "data": {
-    "name": "WebFrame8366"
-   }
-  }
- ],
- "veilShowEffect": {
-  "class": "FadeInEffect",
-  "duration": 500,
-  "easing": "cubic_in_out"
- },
- "closeButtonIconHeight": 12,
- "closeButtonIconLineWidth": 2,
- "paddingRight": 0,
- "bodyPaddingBottom": 5,
- "shadowColor": "#000000",
- "backgroundColorDirection": "vertical",
- "titleFontFamily": "Arial",
- "footerHeight": 5,
- "borderSize": 0,
- "headerPaddingBottom": 10,
- "closeButtonIconColor": "#FF0000",
- "titleFontStyle": "normal",
- "footerBackgroundColorRatios": [
-  0,
-  0.9,
-  1
- ],
- "headerBorderColor": "#000000",
- "closeButtonBackgroundOpacity": 1,
- "shadowVerticalLength": 0,
- "closeButtonPaddingRight": 0,
- "bodyPaddingTop": 5,
- "hideEffect": {
-  "class": "FadeOutEffect",
-  "duration": 500,
-  "easing": "cubic_in_out"
- },
- "contentOpaque": false,
- "headerPaddingRight": 10,
- "scrollBarMargin": 2,
- "closeButtonPaddingLeft": 0,
- "shadowBlurRadius": 6,
- "headerPaddingLeft": 10,
- "headerPaddingTop": 10,
- "closeButtonBorderSize": 0,
- "closeButtonPaddingBottom": 0,
- "closeButtonBorderRadius": 11,
- "bodyBackgroundColor": [
-  "#FFFFFF",
-  "#DDDDDD",
-  "#FFFFFF"
- ],
- "veilHideEffect": {
-  "class": "FadeOutEffect",
-  "duration": 500,
-  "easing": "cubic_in_out"
- },
- "titleTextDecoration": "none",
- "shadowOpacity": 0.5,
- "paddingTop": 0,
- "bodyPaddingRight": 5,
- "paddingBottom": 0,
- "bodyBackgroundColorRatios": [
-  0,
-  0.5,
-  1
- ],
- "borderRadius": 5,
- "gap": 10,
- "titlePaddingBottom": 5,
- "headerBackgroundColor": [
-  "#DDDDDD",
-  "#EEEEEE",
-  "#FFFFFF"
- ],
- "closeButtonRollOverBackgroundColor": [
-  "#C13535"
- ],
- "closeButtonPressedIconColor": "#FFFFFF",
- "bodyPaddingLeft": 5,
- "scrollBarWidth": 10,
- "closeButtonIconWidth": 20,
- "data": {
-  "name": "Window8277"
- },
- "close": "this.resumeGlobalAudios('window_25EDCDE1_34C0_2652_41C4_0A922687C80E')",
- "closeButtonBackgroundColorRatios": []
-},
-{
- "backgroundColorRatios": [],
- "layout": "vertical",
- "id": "window_26155439_34C0_2632_41B9_B02DBA3B9C95",
- "bodyBackgroundColorDirection": "vertical",
- "paddingLeft": 0,
- "scrollBarColor": "#000000",
- "scrollBarVisible": "rollOver",
- "closeButtonRollOverBackgroundColorRatios": [
-  0
- ],
- "width": 400,
- "closeButtonPaddingTop": 0,
- "horizontalAlign": "center",
- "veilColor": [
-  "#000000",
-  "#000000"
- ],
- "scrollBarOpacity": 0.5,
- "headerVerticalAlign": "middle",
- "minHeight": 20,
- "headerBackgroundColorRatios": [
-  0,
-  0.1,
-  1
- ],
- "verticalAlign": "middle",
- "titlePaddingLeft": 5,
- "headerBackgroundOpacity": 1,
- "modal": true,
- "showEffect": {
-  "class": "FadeInEffect",
-  "duration": 500,
-  "easing": "cubic_in_out"
- },
- "height": 600,
- "titleFontColor": "#000000",
- "veilColorRatios": [
-  0,
-  1
- ],
- "closeButtonBorderColor": "#000000",
- "minWidth": 20,
- "veilColorDirection": "horizontal",
- "titleFontSize": "1.29vmin",
- "headerBackgroundColorDirection": "vertical",
- "backgroundColor": [],
  "shadowSpread": 1,
  "closeButtonRollOverIconColor": "#FFFFFF",
  "shadowHorizontalLength": 3,
@@ -901,7 +511,7 @@
   "duration": 500,
   "easing": "cubic_in_out"
  },
- "closeButtonIconHeight": 12,
+ "closeButtonIconHeight": 20,
  "closeButtonIconLineWidth": 2,
  "paddingRight": 0,
  "bodyPaddingBottom": 5,
@@ -979,6 +589,197 @@
  "closeButtonBackgroundColorRatios": []
 },
 {
+ "backgroundColorRatios": [],
+ "layout": "vertical",
+ "id": "window_25C477E1_34C3_E252_41BB_FF7C58738851",
+ "bodyBackgroundColorDirection": "vertical",
+ "paddingLeft": 0,
+ "scrollBarColor": "#000000",
+ "scrollBarVisible": "rollOver",
+ "closeButtonRollOverBackgroundColorRatios": [
+  0
+ ],
+ "scrollBarOpacity": 0.5,
+ "closeButtonPaddingTop": 0,
+ "horizontalAlign": "center",
+ "veilColor": [
+  "#000000",
+  "#000000"
+ ],
+ "bodyBackgroundOpacity": 1,
+ "titlePaddingLeft": 5,
+ "headerVerticalAlign": "middle",
+ "minHeight": 20,
+ "headerBackgroundColorRatios": [
+  0,
+  0.1,
+  1
+ ],
+ "width": "90%",
+ "headerBackgroundOpacity": 1,
+ "verticalAlign": "middle",
+ "footerBorderSize": 0,
+ "showEffect": {
+  "class": "FadeInEffect",
+  "duration": 500,
+  "easing": "cubic_in_out"
+ },
+ "modal": true,
+ "minWidth": 20,
+ "titleFontColor": "#000000",
+ "veilColorRatios": [
+  0,
+  1
+ ],
+ "closeButtonBorderColor": "#000000",
+ "backgroundColor": [],
+ "title": "PAPELARIA DELTA 360",
+ "titleFontSize": "1.29vmin",
+ "headerBackgroundColorDirection": "vertical",
+ "height": "100%",
+ "shadowSpread": 1,
+ "closeButtonRollOverIconColor": "#FFFFFF",
+ "shadowHorizontalLength": 3,
+ "veilColorDirection": "horizontal",
+ "closeButtonBackgroundColorDirection": "vertical",
+ "backgroundOpacity": 1,
+ "closeButtonPressedBackgroundColor": [
+  "#3A1D1F"
+ ],
+ "headerBorderSize": 0,
+ "closeButtonBackgroundColor": [],
+ "titleFontWeight": "normal",
+ "class": "Window",
+ "titlePaddingTop": 5,
+ "shadow": true,
+ "closeButtonPressedBackgroundColorRatios": [
+  0
+ ],
+ "propagateClick": false,
+ "overflow": "scroll",
+ "veilOpacity": 0.4,
+ "footerBackgroundColorDirection": "vertical",
+ "footerBackgroundOpacity": 1,
+ "footerBackgroundColor": [
+  "#FFFFFF",
+  "#EEEEEE",
+  "#DDDDDD"
+ ],
+ "titlePaddingRight": 5,
+ "children": [
+  "this.htmlText_25C6B7E1_34C3_E252_41B9_7433E0ECBF59",
+  {
+   "backgroundColorRatios": [],
+   "paddingLeft": 0,
+   "paddingRight": 0,
+   "width": "100%",
+   "backgroundColorDirection": "vertical",
+   "url": "//www.youtube.com/embed/r7jcJ1BFBH4?v=r7jcJ1BFBH4&ab_channel=Maps360Graus",
+   "minHeight": 0,
+   "scrollEnabled": true,
+   "borderSize": 0,
+   "minWidth": 0,
+   "backgroundColor": [],
+   "height": "89%",
+   "insetBorder": false,
+   "paddingTop": 0,
+   "backgroundOpacity": 1,
+   "class": "WebFrame",
+   "borderRadius": 0,
+   "shadow": false,
+   "paddingBottom": 0,
+   "propagateClick": false,
+   "data": {
+    "name": "WebFrame10553"
+   }
+  }
+ ],
+ "veilShowEffect": {
+  "class": "FadeInEffect",
+  "duration": 500,
+  "easing": "cubic_in_out"
+ },
+ "closeButtonIconHeight": 20,
+ "closeButtonIconLineWidth": 2,
+ "bodyBorderSize": 0,
+ "paddingRight": 0,
+ "bodyPaddingBottom": 5,
+ "shadowColor": "#000000",
+ "backgroundColorDirection": "vertical",
+ "titleFontFamily": "Arial",
+ "footerHeight": 5,
+ "borderSize": 0,
+ "headerPaddingBottom": 10,
+ "closeButtonIconColor": "#FF3300",
+ "titleFontStyle": "normal",
+ "footerBackgroundColorRatios": [
+  0,
+  0.9,
+  1
+ ],
+ "headerBorderColor": "#000000",
+ "closeButtonBackgroundOpacity": 1,
+ "shadowVerticalLength": 0,
+ "closeButtonPaddingRight": 0,
+ "bodyPaddingTop": 5,
+ "hideEffect": {
+  "class": "FadeOutEffect",
+  "duration": 500,
+  "easing": "cubic_in_out"
+ },
+ "contentOpaque": false,
+ "headerPaddingRight": 10,
+ "scrollBarMargin": 2,
+ "closeButtonPaddingLeft": 0,
+ "shadowBlurRadius": 6,
+ "headerPaddingLeft": 10,
+ "headerPaddingTop": 10,
+ "closeButtonBorderSize": 0,
+ "closeButtonPaddingBottom": 0,
+ "closeButtonBorderRadius": 11,
+ "bodyBackgroundColor": [
+  "#FFFFFF",
+  "#DDDDDD",
+  "#FFFFFF"
+ ],
+ "veilHideEffect": {
+  "class": "FadeOutEffect",
+  "duration": 500,
+  "easing": "cubic_in_out"
+ },
+ "footerBorderColor": "#000000",
+ "titleTextDecoration": "none",
+ "shadowOpacity": 0.5,
+ "paddingTop": 0,
+ "bodyPaddingRight": 5,
+ "paddingBottom": 0,
+ "bodyBackgroundColorRatios": [
+  0,
+  0.5,
+  1
+ ],
+ "borderRadius": 5,
+ "gap": 10,
+ "titlePaddingBottom": 5,
+ "headerBackgroundColor": [
+  "#DDDDDD",
+  "#EEEEEE",
+  "#FFFFFF"
+ ],
+ "closeButtonRollOverBackgroundColor": [
+  "#C13535"
+ ],
+ "closeButtonPressedIconColor": "#FFFFFF",
+ "bodyPaddingLeft": 5,
+ "bodyBorderColor": "#000000",
+ "scrollBarWidth": 10,
+ "closeButtonIconWidth": 20,
+ "data": {
+  "name": "Window10034"
+ },
+ "closeButtonBackgroundColorRatios": []
+},
+{
  "class": "Video",
  "label": "TESTE CHOMA BOTOES",
  "scaleMode": "fit_inside",
@@ -995,6 +796,19 @@
  }
 },
 {
+ "class": "PlayList",
+ "items": [
+  {
+   "class": "VideoPlayListItem",
+   "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_253E49D4_3440_2E72_41B7_E0DAD3787C47, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_253E49D4_3440_2E72_41B7_E0DAD3787C47, 0)",
+   "begin": "this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer)",
+   "media": "this.video_39EBA1BB_3440_1E35_4178_7B78B4C4BAC3",
+   "player": "this.MainViewerVideoPlayer"
+  }
+ ],
+ "id": "playList_253E49D4_3440_2E72_41B7_E0DAD3787C47"
+},
+{
  "class": "Video",
  "label": "TESTE CHOMA BOTOES",
  "scaleMode": "fit_inside",
@@ -1009,6 +823,204 @@
   "height": 810,
   "mp4Url": "media/video_39A211F4_3440_1E32_41CA_306D28EBD2D8.mp4"
  }
+},
+{
+ "backgroundColorRatios": [],
+ "layout": "vertical",
+ "close": "this.resumeGlobalAudios('window_25EDCDE1_34C0_2652_41C4_0A922687C80E')",
+ "id": "window_25EDCDE1_34C0_2652_41C4_0A922687C80E",
+ "bodyBackgroundColorDirection": "vertical",
+ "paddingLeft": 0,
+ "scrollBarColor": "#000000",
+ "scrollBarVisible": "rollOver",
+ "closeButtonRollOverBackgroundColorRatios": [
+  0
+ ],
+ "scrollBarOpacity": 0.5,
+ "closeButtonPaddingTop": 0,
+ "horizontalAlign": "center",
+ "veilColor": [
+  "#000000",
+  "#000000"
+ ],
+ "bodyBackgroundOpacity": 1,
+ "titlePaddingLeft": 5,
+ "headerVerticalAlign": "middle",
+ "minHeight": 20,
+ "headerBackgroundColorRatios": [
+  0,
+  0.1,
+  1
+ ],
+ "width": "90%",
+ "headerBackgroundOpacity": 1,
+ "verticalAlign": "middle",
+ "footerBorderSize": 0,
+ "showEffect": {
+  "class": "FadeInEffect",
+  "duration": 500,
+  "easing": "cubic_in_out"
+ },
+ "modal": true,
+ "minWidth": 20,
+ "titleFontColor": "#000000",
+ "veilColorRatios": [
+  0,
+  1
+ ],
+ "closeButtonBorderColor": "#FF3300",
+ "backgroundColor": [],
+ "title": "TOUR VIRTUAL INTERATIVO",
+ "titleFontSize": "1.29vmin",
+ "headerBackgroundColorDirection": "vertical",
+ "height": "100%",
+ "shadowSpread": 1,
+ "closeButtonRollOverIconColor": "#FFFFFF",
+ "shadowHorizontalLength": 3,
+ "veilColorDirection": "horizontal",
+ "closeButtonBackgroundColorDirection": "vertical",
+ "backgroundOpacity": 1,
+ "closeButtonPressedBackgroundColor": [
+  "#3A1D1F"
+ ],
+ "headerBorderSize": 0,
+ "closeButtonBackgroundColor": [],
+ "titleFontWeight": "bold",
+ "class": "Window",
+ "titlePaddingTop": 5,
+ "shadow": true,
+ "closeButtonPressedBackgroundColorRatios": [
+  0
+ ],
+ "propagateClick": false,
+ "overflow": "scroll",
+ "veilOpacity": 0.4,
+ "footerBackgroundColorDirection": "vertical",
+ "footerBackgroundOpacity": 1,
+ "footerBackgroundColor": [
+  "#FFFFFF",
+  "#EEEEEE",
+  "#DDDDDD"
+ ],
+ "titlePaddingRight": 5,
+ "children": [
+  "this.htmlText_25EB9DE1_34C0_2652_41AC_AD2379B3DA3F",
+  {
+   "backgroundColorRatios": [],
+   "paddingLeft": 0,
+   "paddingRight": 0,
+   "width": "100%",
+   "backgroundColorDirection": "vertical",
+   "url": "https://maps360graus.github.io/Azevedo.-.Advogados.Associados/",
+   "minHeight": 0,
+   "scrollEnabled": true,
+   "borderSize": 0,
+   "minWidth": 0,
+   "backgroundColor": [],
+   "height": "89%",
+   "insetBorder": false,
+   "paddingTop": 0,
+   "backgroundOpacity": 1,
+   "class": "WebFrame",
+   "borderRadius": 0,
+   "shadow": false,
+   "paddingBottom": 0,
+   "propagateClick": false,
+   "data": {
+    "name": "WebFrame8366"
+   }
+  }
+ ],
+ "veilShowEffect": {
+  "class": "FadeInEffect",
+  "duration": 500,
+  "easing": "cubic_in_out"
+ },
+ "closeButtonIconHeight": 20,
+ "closeButtonIconLineWidth": 2,
+ "bodyBorderSize": 0,
+ "paddingRight": 0,
+ "bodyPaddingBottom": 5,
+ "shadowColor": "#000000",
+ "backgroundColorDirection": "vertical",
+ "titleFontFamily": "Arial",
+ "footerHeight": 5,
+ "borderSize": 0,
+ "headerPaddingBottom": 10,
+ "closeButtonIconColor": "#FF0000",
+ "titleFontStyle": "normal",
+ "footerBackgroundColorRatios": [
+  0,
+  0.9,
+  1
+ ],
+ "headerBorderColor": "#000000",
+ "closeButtonBackgroundOpacity": 1,
+ "shadowVerticalLength": 0,
+ "closeButtonPaddingRight": 0,
+ "bodyPaddingTop": 5,
+ "hideEffect": {
+  "class": "FadeOutEffect",
+  "duration": 500,
+  "easing": "cubic_in_out"
+ },
+ "contentOpaque": false,
+ "headerPaddingRight": 10,
+ "scrollBarMargin": 2,
+ "closeButtonPaddingLeft": 0,
+ "shadowBlurRadius": 6,
+ "headerPaddingLeft": 10,
+ "headerPaddingTop": 10,
+ "closeButtonBorderSize": 0,
+ "closeButtonPaddingBottom": 0,
+ "closeButtonBorderRadius": 11,
+ "bodyBackgroundColor": [
+  "#FFFFFF",
+  "#DDDDDD",
+  "#FFFFFF"
+ ],
+ "veilHideEffect": {
+  "class": "FadeOutEffect",
+  "duration": 500,
+  "easing": "cubic_in_out"
+ },
+ "footerBorderColor": "#000000",
+ "titleTextDecoration": "none",
+ "shadowOpacity": 0.5,
+ "paddingTop": 0,
+ "bodyPaddingRight": 5,
+ "paddingBottom": 0,
+ "bodyBackgroundColorRatios": [
+  0,
+  0.5,
+  1
+ ],
+ "borderRadius": 5,
+ "gap": 10,
+ "titlePaddingBottom": 5,
+ "headerBackgroundColor": [
+  "#DDDDDD",
+  "#EEEEEE",
+  "#FFFFFF"
+ ],
+ "closeButtonRollOverBackgroundColor": [
+  "#C13535"
+ ],
+ "closeButtonPressedIconColor": "#FFFFFF",
+ "bodyPaddingLeft": 5,
+ "scrollBarWidth": 10,
+ "closeButtonIconWidth": 20,
+ "data": {
+  "name": "Window8277"
+ },
+ "bodyBorderColor": "#000000",
+ "closeButtonBackgroundColorRatios": []
+},
+{
+ "class": "VideoPlayer",
+ "viewerArea": "this.MainViewer",
+ "id": "MainViewerVideoPlayer",
+ "displayPlaybackBar": true
 },
 {
  "class": "PanoramaCamera",
@@ -1165,32 +1177,6 @@
  "playbackBarProgressBackgroundColorRatios": [
   0
  ]
-},
-{
- "paddingLeft": 10,
- "scrollBarColor": "#000000",
- "id": "htmlText_25C6B7E1_34C3_E252_41B9_7433E0ECBF59",
- "scrollBarVisible": "rollOver",
- "scrollBarOpacity": 0.5,
- "paddingRight": 10,
- "borderSize": 0,
- "minHeight": 0,
- "width": "100%",
- "scrollBarMargin": 2,
- "minWidth": 0,
- "height": "10%",
- "paddingTop": 10,
- "backgroundOpacity": 0,
- "class": "HTMLText",
- "borderRadius": 0,
- "html": "",
- "paddingBottom": 10,
- "shadow": false,
- "scrollBarWidth": 10,
- "propagateClick": false,
- "data": {
-  "name": "HTMLText10035"
- }
 },
 {
  "blending": 0,
@@ -1495,32 +1481,6 @@
 {
  "paddingLeft": 10,
  "scrollBarColor": "#000000",
- "id": "htmlText_25EB9DE1_34C0_2652_41AC_AD2379B3DA3F",
- "scrollBarVisible": "rollOver",
- "scrollBarOpacity": 0.5,
- "paddingRight": 10,
- "borderSize": 0,
- "minHeight": 0,
- "width": "100%",
- "scrollBarMargin": 2,
- "minWidth": 0,
- "height": "10%",
- "paddingTop": 10,
- "backgroundOpacity": 0,
- "class": "HTMLText",
- "borderRadius": 0,
- "html": "",
- "paddingBottom": 10,
- "shadow": false,
- "scrollBarWidth": 10,
- "propagateClick": false,
- "data": {
-  "name": "HTMLText8278"
- }
-},
-{
- "paddingLeft": 10,
- "scrollBarColor": "#000000",
  "id": "htmlText_2615143B_34C0_2636_41C6_32E2CA780852",
  "scrollBarVisible": "rollOver",
  "scrollBarOpacity": 0.5,
@@ -1542,6 +1502,58 @@
  "propagateClick": false,
  "data": {
   "name": "HTMLText10035"
+ }
+},
+{
+ "paddingLeft": 10,
+ "scrollBarColor": "#000000",
+ "id": "htmlText_25C6B7E1_34C3_E252_41B9_7433E0ECBF59",
+ "scrollBarVisible": "rollOver",
+ "scrollBarOpacity": 0.5,
+ "paddingRight": 10,
+ "borderSize": 0,
+ "minHeight": 0,
+ "width": "100%",
+ "scrollBarMargin": 2,
+ "minWidth": 0,
+ "height": "10%",
+ "paddingTop": 10,
+ "backgroundOpacity": 0,
+ "class": "HTMLText",
+ "borderRadius": 0,
+ "html": "<div style=\"text-align:left; color:#000; \"><p STYLE=\"margin:0; line-height:12px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p></div>",
+ "paddingBottom": 10,
+ "shadow": false,
+ "scrollBarWidth": 10,
+ "propagateClick": false,
+ "data": {
+  "name": "HTMLText10035"
+ }
+},
+{
+ "paddingLeft": 10,
+ "scrollBarColor": "#000000",
+ "id": "htmlText_25EB9DE1_34C0_2652_41AC_AD2379B3DA3F",
+ "scrollBarVisible": "rollOver",
+ "scrollBarOpacity": 0.5,
+ "paddingRight": 10,
+ "borderSize": 0,
+ "minHeight": 0,
+ "width": "100%",
+ "scrollBarMargin": 2,
+ "minWidth": 0,
+ "height": "10%",
+ "paddingTop": 10,
+ "backgroundOpacity": 0,
+ "class": "HTMLText",
+ "borderRadius": 0,
+ "html": "<div style=\"text-align:left; color:#000; \"><p STYLE=\"margin:0; line-height:12px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p></div>",
+ "paddingBottom": 10,
+ "shadow": false,
+ "scrollBarWidth": 10,
+ "propagateClick": false,
+ "data": {
+  "name": "HTMLText8278"
  }
 },
 {
